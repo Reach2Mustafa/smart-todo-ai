@@ -35,7 +35,7 @@ export const UserProvider = ({ children }) => {
   const router = useRouter();
   const pathname = usePathname();
 
-  const publicRoutes = ["/auth/login", "/auth/signup", "/auth/forgotpassword","/auth/reset-password"];
+  const publicRoutes = ["/","/auth/login", "/auth/signup", "/auth/forgotpassword","/auth/reset-password"];
 
   // Fetch user from token
   useEffect(() => {
@@ -86,7 +86,8 @@ export const UserProvider = ({ children }) => {
     }
 
     // 🔐 If logged-in user tries to access login or signup
-    if (user && ["/auth/login", "/auth/signup"].includes(pathname)) {
+   if (user && ["/", "/auth/login", "/auth/signup"].includes(pathname)) {
+
       if (!isVerified) {
         router.push("/auth/otp");
       } else {
