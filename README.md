@@ -10,7 +10,6 @@
 
 Use the following test account to explore the app:
 
-```txt
 📧 Email: mohammedb4u2@gmail.com  
 🔐 Password: mustafaPass
 
