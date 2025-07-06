@@ -402,28 +402,7 @@ useEffect(() => {
               </div>
             </div>
 
-            {/* Quick Actions */}
-            <div className="bg-white rounded-2xl border border-slate-200 p-6">
-              <h3 className="font-semibold text-slate-900 mb-4">Quick Actions</h3>
-              <div className="space-y-2">
-                <Button variant="ghost" className="w-full justify-start" size="sm">
-                  <Bell className="h-4 w-4 mr-3" />
-                  Set Reminders
-                </Button>
-                <Button variant="ghost" className="w-full justify-start" size="sm">
-                  <Calendar className="h-4 w-4 mr-3" />
-                  View Calendar
-                </Button>
-                <Button variant="ghost" className="w-full justify-start" size="sm">
-                  <BarChart3 className="h-4 w-4 mr-3" />
-                  Analytics
-                </Button>
-                <Button variant="ghost" className="w-full justify-start" size="sm">
-                  <Settings className="h-4 w-4 mr-3" />
-                  Settings
-                </Button>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>
