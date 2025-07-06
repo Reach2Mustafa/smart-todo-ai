@@ -145,7 +145,7 @@ setLoading(false); // Reset loading state
               <div className="flex flex-col items-center gap-2 text-center">
                 <h1 className="text-2xl font-bold">Enter OTP</h1>
                 <p className="text-balance text-sm text-muted-foreground">
-                  We've sent a 6-digit OTP to your {user.email}.
+                  We've sent a 6-digit OTP to your {user.email}. <p onClick={()=>{localStorage.removeItem("token");window.location.href="/auth/signup"}}>Not You?</p>
                 </p>
               </div>
 
