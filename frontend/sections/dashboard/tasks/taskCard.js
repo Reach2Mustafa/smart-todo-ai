@@ -15,8 +15,8 @@ import { Label } from "@/components/ui/label";
 import 'react-datepicker/dist/react-datepicker.css';
 import DatePicker from "react-datepicker";
 import toast from "react-hot-toast";
-import deleteTask from "@/api/deleteTask";
-import updateTask from "@/api/updateTask";
+import deleteTask from "@/apis/deleteTask";
+import updateTask from "@/apis/updateTask";
 import {
   AlertDialog,
   AlertDialogAction,

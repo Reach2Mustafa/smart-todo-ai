@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { Mic, MicOff, Square, Edit3, FileText, AlertCircle } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import toast from 'react-hot-toast';
-import AddtaskApi from '@/api/AddtaskApi';
+import AddtaskApi from '@/apis/AddtaskApi';
 
 const AddTask = () => {
     const [activeTab, setActiveTab] = useState('summary');

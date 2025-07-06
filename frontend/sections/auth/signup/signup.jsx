@@ -9,7 +9,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
 import { useUser } from "@/redux/userContext";
-import UserSignupApi from "@/api/UserSignupApi"; // You'll implement this
+import UserSignupApi from "@/apis/UserSignupApi"; // You'll implement this
 
 const Signup = () => {
   const router = useRouter();

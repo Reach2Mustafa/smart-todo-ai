@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useCallback } from "react";
 import TaskCard from "./taskCard";
-import getUserTasks from "@/api/getUserTasks";
+import getUserTasks from "@/apis/getUserTasks";
 import {
   Dialog,
   DialogTrigger,

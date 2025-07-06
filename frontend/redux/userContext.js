@@ -1,5 +1,5 @@
 "use client";
-import GetUserApi from "@/api/GetUserApi";
+import GetUserApi from "@/apis/GetUserApi";
 import Loading from "@/components/Loading";
 import { useRouter, usePathname } from "next/navigation";
 import React, {

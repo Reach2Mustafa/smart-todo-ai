@@ -5,9 +5,9 @@ import { Input } from "@/components/ui/input";
 import { GalleryVerticalEnd, Loader2 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { useUser } from "@/redux/userContext";
-import SendOtpApi from "@/api/SendOtpApi";
+import SendOtpApi from "@/apis/SendOtpApi";
 import toast from "react-hot-toast";
-import VerifyOtpApi from "@/api/verifyOtp";
+import VerifyOtpApi from "@/apis/verifyOtp";
 // import { useRouter } from "next/router";
 
 const OTP = () => {

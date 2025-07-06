@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/sheetprofile";
 import { Button } from "@/components/ui/button";
 import AddPersonalInfo from "./AddPersonalInfo";
-import UpdateUserApi from "@/api/updateUserApi";
+import UpdateUserApi from "@/apis/updateUserApi";
 import { useSearchParams } from "next/navigation";
 const Profile = () => {
     const [open, setOpen] = useState(false);

@@ -38,7 +38,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
-import changePasswordAPI from "@/api/changePasswordAPI"
+import changePasswordAPI from "@/apis/changePasswordAPI"
 import toast from "react-hot-toast"
 import Link from "next/link"
 

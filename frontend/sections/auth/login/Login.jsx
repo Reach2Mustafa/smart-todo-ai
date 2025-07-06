@@ -7,7 +7,7 @@ import { Eye, EyeOff, GalleryVerticalEnd, Headset } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import UserLoginApi from "@/api/UserLoginApi";
+import UserLoginApi from "@/apis/UserLoginApi";
 import { useUser } from "@/redux/userContext";
 import toast from "react-hot-toast";
 import { Loader2 } from "lucide-react";

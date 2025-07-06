@@ -6,9 +6,9 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { GalleryVerticalEnd, Headset, Loader2 } from "lucide-react";
-import SendOtpApi from "@/api/SendOtpApi";
+import SendOtpApi from "@/apis/SendOtpApi";
 import toast from "react-hot-toast";
-import sendResetpasswordLink from "@/api/sendResetpasswordLink";
+import sendResetpasswordLink from "@/apis/sendResetpasswordLink";
 
 const ForgotPassword = () => {
   const [email, setEmail] = useState("");

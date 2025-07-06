@@ -4,7 +4,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { Calendar, CheckCircle, Clock, AlertCircle, User, BarChart3, TrendingUp, Target, Star, Flame, BookOpen, Plus, Filter, Search, ArrowRight, ChevronRight, MapPin, Bell, Settings, Zap, Award, Activity, Users, Home, Briefcase, Heart, Brain, Flag } from 'lucide-react';
-import getDashboardData from '@/api/getDashboardData';
+import getDashboardData from '@/apis/getDashboardData';
 import { useUser } from '@/redux/userContext';
 
 const Dashboard = () => {
