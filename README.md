@@ -6,6 +6,14 @@
 
 ---
 
+## 🧪 Test User Credentials
+
+Use the following test account to explore the app:
+
+```txt
+📧 Email: mohammedb4u2@gmail.com  
+🔐 Password: mustafaPass
+
 ## ✅ Features
 
 * **Smart Task Creation:** AI-driven suggestions for quicker task entry.
@@ -126,14 +134,18 @@ python manage.py runserver
 
 
 
+### Backend
 
 cd frontend
 npm install
-Important:
-Open frontend/apis/variables.js and update the backendUrl constant with your actual backend server URL.
+## Important:
+# Open frontend/apis/variables.js and update the backendUrl constant with your actual backend server URL.
 Example:
 
 export const BACKEND_URL = "http://localhost:8000";
 
 npm run dev
+
+
+
 
